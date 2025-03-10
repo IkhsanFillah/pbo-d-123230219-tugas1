@@ -87,7 +87,7 @@ public class HalamanUtama extends JFrame implements ActionListener {
                 return;
             }
             
-            String data = namaDpn + " " + namaBelakang + " | Gender " + jenisKelamin;
+            String data = namaDpn + " " + namaBelakang + " | Gender: " + jenisKelamin;
             listData.add(data);
             ta.append(data + "\n");
             
